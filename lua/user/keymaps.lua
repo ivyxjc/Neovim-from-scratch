@@ -25,6 +25,19 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+keymap("n", "<D-h>", "<C-w>h", opts)
+keymap("n", "<D-j>", "<C-w>j", opts)
+keymap("n", "<D-k>", "<C-w>k", opts)
+keymap("n", "<D-l>", "<C-w>l", opts)
+
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+
+keymap("n", "<leader>h", "<C-w>h", opts)
+keymap("n", "<leader>j", "<C-w>j", opts)
+keymap("n", "<leader>k", "<C-w>k", opts)
+keymap("n", "<leader>l", "<C-w>l", opts)
+
+
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
 keymap("n", "<C-Down>", ":resize +2<CR>", opts)
