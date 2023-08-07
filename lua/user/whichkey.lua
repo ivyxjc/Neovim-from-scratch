@@ -101,6 +101,14 @@ local mappings = {
 
   f = {
     name = "File Tree & Search",
+    d = {
+       "<cmd>windo diffthis<CR>",
+       "diff on",
+    },
+    o = {
+       "<cmd>diffoff<CR>",
+       "diff off",
+    },
     f = {
       "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
       "Find files",

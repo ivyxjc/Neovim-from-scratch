@@ -2,10 +2,14 @@ local servers = {
 	"sumneko_lua",
 	-- "cssls",
 	-- "html",
-	-- "tsserver",
+	"tsserver",
 	"pyright",
 	-- "bashls",
 	"jsonls",
+    "gopls",
+    "rust_analyzer",
+    -- "javascript",
+    "typescript"
 	-- "yamlls",
 }
 
@@ -50,3 +54,7 @@ for _, server in pairs(servers) do
 
 	lspconfig[server].setup(opts)
 end
+
+
+
+
